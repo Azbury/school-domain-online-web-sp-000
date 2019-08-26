@@ -24,4 +24,5 @@ class School
     @roster.collect do |grade, name_array|
       name_array.sort
     end
+  end
 end
